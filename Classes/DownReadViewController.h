@@ -62,7 +62,7 @@ UIPopoverControllerDelegate,UIScrollViewDelegate> {
 
 @property (nonatomic,assign) BOOL           m_isInsert;
 @property (nonatomic,retain) NSMutableString *m_currentContent;
-@property (nonatomic, retain) NSXMLParser *m_xmlParser;
+@property (nonatomic, retain) NSXMLParser    *m_xmlParser;
 
 
 -(void)popCatalog: (id)sender;

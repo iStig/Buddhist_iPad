@@ -39,17 +39,17 @@ CGFloat distance(CGPoint a, CGPoint b);
 	self.clipsToBounds = YES;
     
 	topPage = [[CALayer alloc] init];
-    topPage.contentsScale = [[UIScreen mainScreen] scale]; 
+    topPage.contentsScale = [[UIScreen mainScreen] scale]*2;
 	topPage.masksToBounds = YES;
 	topPage.contentsGravity = kCAGravityLeft;
 	topPage.backgroundColor = [[UIColor whiteColor] CGColor];
 	
 	topPageOverlay = [[CALayer alloc] init];
-    topPageOverlay.contentsScale = [[UIScreen mainScreen] scale]; 
+    topPageOverlay.contentsScale = [[UIScreen mainScreen] scale]*2; 
 	topPageOverlay.backgroundColor = [[[UIColor blackColor] colorWithAlphaComponent:0.2] CGColor];
 	
 	topPageShadow = [[CAGradientLayer alloc] init];
-    topPageShadow.contentsScale = [[UIScreen mainScreen] scale]; 
+    topPageShadow.contentsScale = [[UIScreen mainScreen] scale]*2; 
 	topPageShadow.colors = [NSArray arrayWithObjects:
 							(id)[[[UIColor blackColor] colorWithAlphaComponent:0.6] CGColor],
 							(id)[[UIColor clearColor] CGColor],
@@ -58,19 +58,19 @@ CGFloat distance(CGPoint a, CGPoint b);
 	topPageShadow.endPoint = CGPointMake(0,0.5);
 	
 	topPageReverse = [[CALayer alloc] init];
-    topPageReverse.contentsScale = [[UIScreen mainScreen] scale]; 
+    topPageReverse.contentsScale = [[UIScreen mainScreen] scale]*2; 
 	topPageReverse.backgroundColor = [[UIColor whiteColor] CGColor];
 	topPageReverse.masksToBounds = YES;
 	
 	topPageReverseImage = [[CALayer alloc] init];
-    topPageReverseImage.contentsScale = [[UIScreen mainScreen] scale]; 
+    topPageReverseImage.contentsScale = [[UIScreen mainScreen] scale]*2; 
 	topPageReverseImage.masksToBounds = YES;
 	
 	topPageReverseOverlay = [[CALayer alloc] init];
-    topPageReverseOverlay.contentsScale = [[UIScreen mainScreen] scale];
+    topPageReverseOverlay.contentsScale = [[UIScreen mainScreen] scale]*2;
 	
 	topPageReverseShading = [[CAGradientLayer alloc] init];
-    topPageReverseShading.contentsScale = [[UIScreen mainScreen] scale];
+    topPageReverseShading.contentsScale = [[UIScreen mainScreen] scale]*2;
 
 	topPageReverseShading.colors = [NSArray arrayWithObjects:
 									(id)[[[UIColor blackColor] colorWithAlphaComponent:0.6] CGColor],
@@ -80,12 +80,12 @@ CGFloat distance(CGPoint a, CGPoint b);
 	topPageReverseShading.endPoint = CGPointMake(0,0.5);
 	
 	bottomPage = [[CALayer alloc] init];
-    bottomPage.contentsScale = [[UIScreen mainScreen] scale];
+    bottomPage.contentsScale = [[UIScreen mainScreen] scale]*2;
 	bottomPage.backgroundColor = [[UIColor whiteColor] CGColor];
 	bottomPage.masksToBounds = YES;
 	
 	bottomPageShadow = [[CAGradientLayer alloc] init];
-    bottomPageShadow.contentsScale = [[UIScreen mainScreen] scale];
+    bottomPageShadow.contentsScale = [[UIScreen mainScreen] scale]*2;
 	bottomPageShadow.colors = [NSArray arrayWithObjects:
 							   (id)[[[UIColor blackColor] colorWithAlphaComponent:0.6] CGColor],
 							   (id)[[UIColor clearColor] CGColor],
@@ -101,13 +101,13 @@ CGFloat distance(CGPoint a, CGPoint b);
 
     // Setup for the left page in two-page mode
     leftPage = [[CALayer alloc] init];
-    leftPage.contentsScale = [[UIScreen mainScreen] scale];
+    leftPage.contentsScale = [[UIScreen mainScreen] scale]*2;
 	leftPage.masksToBounds = YES;
 	leftPage.contentsGravity = kCAGravityRight;
 	leftPage.backgroundColor = [[UIColor whiteColor] CGColor];
 	
 	leftPageOverlay = [[CALayer alloc] init];
-    leftPageOverlay.contentsScale = [[UIScreen mainScreen] scale];
+    leftPageOverlay.contentsScale = [[UIScreen mainScreen] scale]*2;
 	leftPageOverlay.backgroundColor = [[[UIColor blackColor] colorWithAlphaComponent:0.2] CGColor];
 		
 	[leftPage addSublayer:leftPageOverlay];

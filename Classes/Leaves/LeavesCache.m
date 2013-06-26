@@ -6,6 +6,8 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
+//CGPDFDocumentRef
+
 #import "LeavesCache.h"
 
 
@@ -32,17 +34,19 @@
 
 - (CGImageRef) imageForPageIndex:(NSUInteger)pageIndex {
     
-    CGFloat scale = [[UIScreen mainScreen] scale];
+    //CGFloat scale = [[UIScreen mainScreen] scale];
 	CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
 	CGContextRef context = CGBitmapContextCreate(NULL, 
-												 pageSize.width*scale,
-												 pageSize.height*scale,
+												 pageSize.width*2,
+												 pageSize.height*2,
 												 8,						/* bits per component*/
-												 pageSize.width*scale * 4, 	/* bytes per row */
+												 pageSize.width *2* 4, 	/* bytes per row */
 												 colorSpace, 
 												 kCGImageAlphaPremultipliedLast | kCGBitmapByteOrder32Big);
 	CGColorSpaceRelease(colorSpace);
-	CGContextClipToRect(context, CGRectMake(0, 0, pageSize.width*scale, pageSize.height*scale));
+	CGContextClipToRect(context, CGRectMake(0, 0, pageSize.width*2, pageSize.height*2));
+   //CGContextScaleCTM(context, scale, scale);
+    
 	
 	[dataSource renderPageAtIndex:pageIndex inContext:context];
 	

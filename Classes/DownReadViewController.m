@@ -42,7 +42,7 @@
 {
 	if (self = [super init]) {
 		m_leavesView = [[LeavesView alloc] initWithFrame:CGRectZero];
-        m_leavesView.mode = UIInterfaceOrientationIsPortrait(self.interfaceOrientation) ? LeavesViewModeSinglePage : LeavesViewModeFacingPages;
+        m_leavesView.mode = UIInterfaceOrientationIsPortrait(self.interfaceOrientation) ? LeavesViewModeSinglePage : LeavesViewModeFacingPages;//用于判断设备横or竖
 	}
 	return self;
 }
@@ -136,6 +136,7 @@
 }
 
 - (void) renderPageAtIndex:(NSUInteger)index inContext:(CGContextRef)ctx {
+    
 	CGPDFPageRef page = CGPDFDocumentGetPage(pdf, index + 1);
 	CGAffineTransform transform = aspectFit(CGPDFPageGetBoxRect(page, kCGPDFMediaBox),
 											CGContextGetClipBoundingBox(ctx));
