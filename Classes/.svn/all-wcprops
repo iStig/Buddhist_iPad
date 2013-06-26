@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Projects/!svn/ver/1988/trunk/CbetaIpad0830/Classes
+END
+UItoolBarView.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Projects/!svn/ver/1768/trunk/CbetaIpad0830/Classes/UItoolBarView.h
+END
+LoadingIndicatorView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Projects/!svn/ver/1988/trunk/CbetaIpad0830/Classes/LoadingIndicatorView.xib
+END
+UItoolBarView.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Projects/!svn/ver/1768/trunk/CbetaIpad0830/Classes/UItoolBarView.m
+END
+DownloadBookMarkController.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Projects/!svn/ver/1768/trunk/CbetaIpad0830/Classes/DownloadBookMarkController.h
+END
+DownReadViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Projects/!svn/ver/1768/trunk/CbetaIpad0830/Classes/DownReadViewController.h
+END
+LoadingIndicatorView.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Projects/!svn/ver/1471/trunk/CbetaIpad0830/Classes/LoadingIndicatorView.h
+END
+DownloadBookMarkController.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Projects/!svn/ver/1789/trunk/CbetaIpad0830/Classes/DownloadBookMarkController.m
+END
+DownReadViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Projects/!svn/ver/1986/trunk/CbetaIpad0830/Classes/DownReadViewController.m
+END
+CbetaIpadAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Projects/!svn/ver/1768/trunk/CbetaIpad0830/Classes/CbetaIpadAppDelegate.h
+END
+LoadingIndicatorView.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Projects/!svn/ver/1471/trunk/CbetaIpad0830/Classes/LoadingIndicatorView.m
+END
+CbetaIpadAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Projects/!svn/ver/1988/trunk/CbetaIpad0830/Classes/CbetaIpadAppDelegate.m
+END
+OnlineReadViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Projects/!svn/ver/1471/trunk/CbetaIpad0830/Classes/OnlineReadViewController.h
+END
+BookMarkEditController.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Projects/!svn/ver/1768/trunk/CbetaIpad0830/Classes/BookMarkEditController.h
+END
+OnlineReadViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Projects/!svn/ver/1768/trunk/CbetaIpad0830/Classes/OnlineReadViewController.m
+END
+BookMarkEditController.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Projects/!svn/ver/1789/trunk/CbetaIpad0830/Classes/BookMarkEditController.m
+END

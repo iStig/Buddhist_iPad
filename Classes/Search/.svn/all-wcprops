@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Projects/!svn/ver/1988/trunk/CbetaIpad0830/Classes/Search
+END
+OnlineSearchViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/1471/trunk/CbetaIpad0830/Classes/Search/OnlineSearchViewController.h
+END
+DownSeachViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Projects/!svn/ver/1471/trunk/CbetaIpad0830/Classes/Search/DownSeachViewController.h
+END
+OnlineSearchViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Projects/!svn/ver/1988/trunk/CbetaIpad0830/Classes/Search/OnlineSearchViewController.m
+END
+DownSeachViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Projects/!svn/ver/1988/trunk/CbetaIpad0830/Classes/Search/DownSeachViewController.m
+END
+OnlineSearchView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Projects/!svn/ver/1471/trunk/CbetaIpad0830/Classes/Search/OnlineSearchView.xib
+END
+DownSearchView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Projects/!svn/ver/1471/trunk/CbetaIpad0830/Classes/Search/DownSearchView.xib
+END
